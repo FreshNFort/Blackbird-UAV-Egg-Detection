@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Egg']
+
+roboflow:
+  workspace: kayla-vesik
+  project: egg-detection-project-ztvno
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kayla-vesik/egg-detection-project-ztvno/dataset/1
