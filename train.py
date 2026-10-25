@@ -5,8 +5,10 @@ if __name__ == "__main__":
 
     model.train(
         data="model/data.yaml",
-        epochs=50,
-        batch=4,
+        epochs=120,
+        batch=16,
         imgsz=800,
-        device="cpu",
-    )
+        device=0,
+        patience = 25,
+        save = True
+    )                
