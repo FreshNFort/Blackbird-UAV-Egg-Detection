@@ -52,3 +52,5 @@ while cap.isOpened():
 
 cap.releaste()
 cv2.destroyAllWindows()
+
+#idk
